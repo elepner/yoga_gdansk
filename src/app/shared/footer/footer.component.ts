@@ -9,13 +9,13 @@ export class FooterComponent implements OnInit {
 
   socialNetworks = [{
     'type': 'vk',
-    'url': ''
+    'url': 'https://vk.com/yoga_gdansk'
   },{
     'type': 'facebook',
-    'url': ''
+    'url': 'https://www.facebook.com/groups/yogagdansk/'
   },{
     'type': 'instagram',
-    'url': ''
+    'url': 'https://www.instagram.com/yoga_gdansk/'
   },]
 
   constructor() { }

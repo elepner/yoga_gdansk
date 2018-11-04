@@ -1,6 +1,8 @@
 <div class="footer">
   <span>Find in social networks:</span>
   <div style="text-align:center" class="social-networks">
-    <fa-icon *ngFor="let socialNetwork of socialNetworks" [icon]="['fab', socialNetwork.type]" size="2x"></fa-icon>
+    <a  [href]="socialNetwork.url" *ngFor="let socialNetwork of socialNetworks" target="_blank">
+      <fa-icon  [icon]="['fab', socialNetwork.type]" size="2x"></fa-icon>
+    </a>
   </div>
 </div>

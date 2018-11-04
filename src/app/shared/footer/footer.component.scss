@@ -4,7 +4,7 @@ $textColor: map-get($theme , mat-color($primary, default-contrast));
 
 :host {
     .footer {
-        margin-top: 150px;
+        margin-top: 100px;
         background: mat-color($primary);
         height: 50px;
         width: 100%;
