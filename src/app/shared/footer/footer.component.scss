@@ -1,0 +1,25 @@
+@import '../../../theme';
+$primary: map-get($theme, primary);
+$textColor: map-get($theme , mat-color($primary, default-contrast));
+
+:host {
+    .footer {
+        margin-top: 150px;
+        background: mat-color($primary);
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+svg {
+  color: $textColor;
+}
+fa-icon {
+    color: mat-color($primary, default-contrast);
+    margin-left: 7px;
+}
+span {
+    color: mat-color($primary, default-contrast);
+}

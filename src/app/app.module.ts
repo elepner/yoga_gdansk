@@ -13,20 +13,30 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 import { routes } from './app-routes';
 import { RouterModule } from '@angular/router';
 import { CardComponent } from './shared/card/card.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram, faVk } from '@fortawesome/free-brands-svg-icons';
+// Add an icon to the library for convenient access in other components
+library.add(faFacebook, faInstagram, faVk);
+
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
     GalleryComponent,
-    CardComponent
+    CardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
