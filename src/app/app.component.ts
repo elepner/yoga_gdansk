@@ -7,13 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'yoga-room';
-  sectionKeys = ['home', 'gallery']
-  sections = {
-    'home' : {
-      name: 'Home'
-    },
-    'gallery' : {
-      name: 'Gallery'
-    }
-  }
+  
 }
