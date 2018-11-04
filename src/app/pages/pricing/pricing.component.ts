@@ -14,19 +14,19 @@ export class PricingComponent {
     hint: 'No obligations'
   }, {
     type: '4 classes',
-    price: '80',
+    price: '100',
     hint: 'For beginners'
   },{
-    type: '8 classes',
-    price: '160',
+    type: '6 classes',
+    price: '120',
     hint: 'Optimal choice'
   },{
-    type: '12 classes',
-    price: '200',
+    type: '8 classes',
+    price: '150',
     hint: 'For advanced practioners'
   },{
     type: 'Open class',
-    price: '240',
+    price: '210',
     hint: 'Visit our classes on any day at any time'
   },]
 }

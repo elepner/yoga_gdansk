@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  sectionKeys = ['home', 'gallery', 'pricing']
+  sectionKeys = ['home', 'pricing']
   sections = {
     'home' : {
       name: 'Home'
