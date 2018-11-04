@@ -12,12 +12,14 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 
 import { routes } from './app-routes';
 import { RouterModule } from '@angular/router';
+import { CardComponent } from './shared/card/card.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    GalleryComponent
+    GalleryComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

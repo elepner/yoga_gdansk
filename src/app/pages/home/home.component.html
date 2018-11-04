@@ -2,10 +2,19 @@
   <img src="assets/home.jpg">
   <div class="centered title-text">
     <span>
-      <b>YOGA</b>
+      <b>MY</b>
     </span>
     <span>
-      <b>ROOM</b>
+      <b>TITLE</b>
     </span>
   </div>
+</div>
+<div class="app-content">
+  <div class="card" *ngFor="let card of cardsContent">
+    <app-card>
+      <span title>{{card.title}}</span>
+      <span body>{{card.text}}</span>
+    </app-card>
+  </div>
+
 </div>
