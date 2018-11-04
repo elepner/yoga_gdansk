@@ -7,3 +7,8 @@ $screen-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

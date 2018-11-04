@@ -1,0 +1,22 @@
+<div class="app-content">
+  <p class="welcome-text">
+    Give A Gift of Healthy Living to Your loved Ones
+  </p>
+  <div *ngFor="let pricing of prices" class="price-card">
+    <div class="wrapper">
+      <app-card>
+        <span title>{{pricing.type}}</span>
+        <div body>
+          <div class="price-box flex-center">
+            <span class="price">{{pricing.price}}</span>
+            <span class="currency">zł</span>
+          </div>
+          <mat-divider></mat-divider>
+          <div style="margin-top: 7px">
+            <span>{{pricing.hint}}</span>
+          </div>
+        </div>
+      </app-card>
+    </div>
+  </div>
+</div>

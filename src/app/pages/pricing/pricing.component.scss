@@ -1,0 +1,27 @@
+.welcome-text {
+    display: block;
+}
+
+.price-card {
+    width: 25%;
+    display: inline-block;
+    .wrapper {
+        margin: 7px 7px 7px 7px
+    }
+}
+
+div[body] {
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    span.price {
+        font-size: 75px;
+    }
+    .price-box {
+        flex-grow: 1;
+    }
+    span.currency {
+        font-size: 30px;
+        vertical-align: top;
+    }
+}

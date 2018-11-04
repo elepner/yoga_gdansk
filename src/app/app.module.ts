@@ -10,7 +10,7 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
-
+import { MatDividerModule } from '@angular/material/divider';
 import { routes } from './app-routes';
 import { RouterModule } from '@angular/router';
 import { CardComponent } from './shared/card/card.component';
@@ -18,6 +18,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faFacebook, faInstagram, faVk } from '@fortawesome/free-brands-svg-icons';
+import { PricingComponent } from './pages/pricing/pricing.component';
 // Add an icon to the library for convenient access in other components
 library.add(faFacebook, faInstagram, faVk);
 
@@ -28,7 +29,8 @@ library.add(faFacebook, faInstagram, faVk);
     HomeComponent,
     GalleryComponent,
     CardComponent,
-    FooterComponent
+    FooterComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +39,7 @@ library.add(faFacebook, faInstagram, faVk);
     MatToolbarModule,
     MatButtonModule,
     MatButtonToggleModule,
+    MatDividerModule,
     FontAwesomeModule
   ],
   providers: [],
