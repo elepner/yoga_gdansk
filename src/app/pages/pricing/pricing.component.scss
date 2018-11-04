@@ -1,3 +1,6 @@
+@import '../../../theme';
+$foreground: map-get($theme, foreground);
+
 .welcome-text {
     display: block;
 }
@@ -16,6 +19,7 @@ div[body] {
     display: flex;
     span.price {
         font-size: 75px;
+        color: mat-color($foreground, text)
     }
     .price-box {
         flex-grow: 1;
@@ -23,5 +27,9 @@ div[body] {
     span.currency {
         font-size: 30px;
         vertical-align: top;
+    }
+
+    .hint {
+        color: mat-color($foreground, secondary-text)
     }
 }
