@@ -1,3 +1,5 @@
 <nav>
-  <a mat-button class="nav-button" *ngFor="let key of sectionKeys" [routerLink]="key">{{sections[key].name}}</a>
+  <a mat-button class="nav-button" *ngFor="let key of sectionKeys" [routerLink]="key" routerLinkActive="active">
+    {{sections[key].name}}
+  </a>
 </nav>
