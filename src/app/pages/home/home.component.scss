@@ -1,3 +1,5 @@
+@import '../../../theme';
+
 div.intro-img {
     height: 500px;
     width: 100%;
@@ -17,9 +19,16 @@ div.intro-img {
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, 50%);
-        
+        transform: translate(-50%, -50%);
+        span {
+            color: mat-color($primary, default-contrast);
+            display: block;
+            font-size: 100pt;
+        }
     }
 
-    
+    .title-text {
+        opacity: 0.60;
+        text-align: center;
+    }
 }
