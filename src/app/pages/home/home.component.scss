@@ -1,0 +1,25 @@
+div.intro-img {
+    height: 500px;
+    width: 100%;
+    
+    overflow: hidden;
+    position: relative;
+
+    img {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top:0;
+        transform: translateY(-50%)
+    }
+
+    .centered {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, 50%);
+        
+    }
+
+    
+}
